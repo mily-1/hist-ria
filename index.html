@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tela">
+    <h1>Quiz</h1>
+    <hr>
+    <header>
+        <section>
+            <div  id="formNome">
+            <form>
+                <label for="name-example">Nome</label>
+                <input
+                size="50"
+                type="name"
+                id="name-example"
+                 placeholder="Nome"
+                name="name-example"
+                required
+                /> 
+
+            </form>
+            <button onclick="funcaoNome ()">Ok</button>
+        </div>
+        <div id="resultado">O seu rendimento foi </div>
+            <div id="perguntaJogar"></div>
+            <div id="nomeEnable"></div>
+            <div id="resultado"></div>
+            <div id="jogar">
+                <div id= "jogPerg">Gostaria de responder o questionário?</div><br>
+                <button onclick="funcaoSim ()">Sim</button>
+                <button onclick="funcaoNao ()">Não</button>
+            </div>
+            <br><hr><br>
+        </section>
+        <section id="questionario">
+            <div>
+                <form id="priPergunta">
+                    <label>1. Qual é o setor econômico que mais emprega na República Democrática do Congo?</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox0">A) Agricultura</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox1">B) Mineração</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox2">C) Indústria</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox3">D) Comércio</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="segPergunta">
+                    <label>2. Qual é a taxa de desemprego na República Democrática do Congo?</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox0">A) 20%</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">B) 30%</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">C) 40%</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox3">D) 50%</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="terPergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="quaPergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="quiPergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="sexPergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="setPergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="oitPergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="nonPergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="decPergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="dec1Pergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="dec2Pergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="dec3Pergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="dec4Pergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <div>
+                <form id="dec5Pergunta">
+                    <label>3. São navegadores:</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox0">Chrome</label><br>
+                        <input type="checkbox" name="resposta" value="n"><label id="checkbox1">JavaScript</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox2">InternetExplore</label><br>
+                        <input type="checkbox" name="resposta" value="s"><label id="checkbox3">FireFox</label>
+                </form>
+                <br><hr><br>
+            </div>
+            <br><hr><br>
+            <button onclick="funcaoRespostas ()">Enviar</button>
+        </section>
+    </header>       
+  <script src="script.js"></script> 
+    </div> 
+</body>
+</html>
