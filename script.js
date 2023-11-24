@@ -409,7 +409,7 @@ function decima ()
     return respostasCorretas
 }
 function funcaoRespostas (){ 
-    total = Primeira()+segunda()+terceira()+quarta()+quinta()+sexta()+setima()+oitava()+nona()+decima()+decima1()+decima2()+decima3()+decima4()+decima5() 
+    total = primeira()+segunda()+terceira()+quarta()+quinta()+sexta()+setima()+oitava()+nona()+decima()
     total *=(100/10).toFixed()
 let resultado = document.getElementById("resultado")
 document.getElementById("resultado").style.display="block"
